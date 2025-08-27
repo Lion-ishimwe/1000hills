@@ -1,0 +1,56 @@
+<footer>
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>{{ site.title }}</h4>
+                <p>Your trusted partner for professional travel services in Rwanda. We specialize in creating memorable experiences that showcase the beauty and culture of the Land of a Thousand Hills.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    {% for item in site.navigation %}
+                    <li><a href="{{ item.url }}">{{ item.text }}</a></li>
+                    {% endfor %}
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Contact</h4>
+                <p>📱 {{ site.contact.primary }}</p>
+                <p>📞 {{ site.contact.secondary }}</p>
+                <p>📍 {{ site.contact.location }}</p>
+            </div>
+            <div class="footer-section">
+                <h4>Social Media</h4>
+                <ul class="social-links">
+                    <li>
+                        <a href="https://www.facebook.com/1000hillsvoyage/" target="_blank" rel="noopener" aria-label="Facebook">
+                            <span class="icon">f</span>
+                            Facebook
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/1000hills_voyages_ldt/" target="_blank" rel="noopener" aria-label="Instagram">
+                            <span class="icon">📷</span>
+                            Instagram
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://x.com/khamzakeza" target="_blank" rel="noopener" aria-label="X (Twitter)">
+                            <span class="icon">𝕏</span>
+                            X
+                        </a>
+                    </li>
+                   <!--<li>
+                        <a href="https://wa.me/250788839652" target="_blank" rel="noopener" aria-label="WhatsApp">
+                            <span class="icon">🟢</span>
+                            Youtube
+                        </a>
+                    </li>-->
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 {{ site.title }}. All rights reserved. Professional travel services in Rwanda.</p>
+        </div>
+    </div>
+</footer> 

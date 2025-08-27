@@ -1,0 +1,133 @@
+{
+  "title": "One Thousand Hills Voyages Ltd",
+  "description": "Professional Travel Services Rwanda",
+  "tagline": "Experience Rwanda's beauty with our comprehensive transport and tour services",
+  "contact": {
+    "primary": "0788 839 652",
+    "secondary": "0785 576 541",
+    "location": "Kigali, Rwanda",
+    "availability": "24/7 Service Available"
+  },
+  "services": [
+    {
+      "icon": "🚗",
+      "title": "Driver & Car Hiring",
+      "features": [
+        "Professional drivers with extensive local knowledge",
+        "Modern, well-maintained vehicle fleet",
+        "Flexible rental periods (hourly, daily, weekly)",
+        "Comprehensive insurance coverage",
+        "24/7 customer support service"
+      ]
+    },
+    {
+      "icon": "✈️",
+      "title": "Airport & City Transfers",
+      "features": [
+        "Reliable Kigali International Airport pickups",
+        "City-to-city transfer services",
+        "Meet & greet service at arrivals",
+        "Real-time flight tracking",
+        "Punctual, professional service guaranteed"
+      ]
+    },
+    {
+      "icon": "🗺️",
+      "title": "Tour Operator Services",
+      "features": [
+        "Complete tour package arrangements",
+        "Gorilla trekking expeditions",
+        "Cultural heritage site visits",
+        "Wildlife safari experiences",
+        "Adventure tourism activities"
+      ]
+    },
+    {
+      "icon": "👥",
+      "title": "Professional Tour Guiding",
+      "features": [
+        "Certified, experienced local guides",
+        "Multi-language support available",
+        "Deep cultural and historical expertise",
+        "Specialized wildlife and nature guides",
+        "Educational and entertaining experiences"
+      ]
+    },
+    {
+      "icon": "📋",
+      "title": "Custom Itinerary Planning",
+      "features": [
+        "Personalized travel itineraries",
+        "Budget-conscious planning options",
+        "Individual and group packages",
+        "Accommodation booking assistance",
+        "Activity and attraction reservations"
+      ]
+    }
+  ],
+  "features": [
+    {
+      "icon": "🏆",
+      "title": "Experienced Local Expertise",
+      "description": "Our team combines years of local knowledge with professional training to provide insights that only true Rwanda experts can offer."
+    },
+    {
+      "icon": "🚙",
+      "title": "Premium Vehicle Fleet",
+      "description": "Modern, well-maintained vehicles equipped with safety features and comfort amenities for a superior travel experience."
+    },
+    {
+      "icon": "⏰",
+      "title": "Reliable & Punctual",
+      "description": "We understand the value of your time. Our commitment to punctuality and reliability ensures your schedule stays on track."
+    },
+    {
+      "icon": "🎨",
+      "title": "Personalized Service",
+      "description": "Every traveler is unique. We customize our services to match your preferences, budget, and travel style."
+    }
+  ],
+  "stats": [
+    {
+      "number": "100+",
+      "label": "Happy Customers"
+    },
+    {
+      "number": "5+",
+      "label": "Years Experience"
+    },
+    {
+      "number": "24/7",
+      "label": "Customer Support"
+    },
+    {
+      "number": "100%",
+      "label": "Satisfaction Rate"
+    }
+  ],
+  "navigation": [
+    {
+      "text": "Home",
+      "url": "/"
+    },
+    {
+      "text": "Services",
+      "url": "/services"
+    },
+    {
+      "text": "About",
+      "url": "/about"
+    },
+    {
+      "text": "Blog",
+      "url": "/blog"
+    },
+   {
+      "text": "Testimonials",
+      "url": "/Testimonials"
+    },
+    {
+      "url": "tel:0788 839 652"
+    }
+  ]
+} 

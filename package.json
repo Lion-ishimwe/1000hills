@@ -1,0 +1,27 @@
+{
+  "name": "one-thousand-hills-voyages",
+  "version": "1.0.0",
+  "description": "Professional travel services website for One Thousand Hills Voyages Ltd in Rwanda",
+  "main": "index.js",
+  "scripts": {
+    "build": "eleventy",
+    "start": "eleventy --serve --port=8082",
+    "dev": "eleventy --serve --watch --port=8082",
+    "clean": "rm -rf _site"
+  },
+  "keywords": [
+    "eleventy",
+    "travel",
+    "tourism",
+    "rwanda",
+    "transport"
+  ],
+  "author": "One Thousand Hills Voyages Ltd",
+  "license": "MIT",
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1",
+    "@11ty/eleventy-plugin-bundle": "^1.0.5",
+    "@11ty/eleventy-plugin-syntaxhighlight": "^4.2.0"
+  },
+  "dependencies": {}
+} 

@@ -1,0 +1,56 @@
+<header class="main-header">
+    <div class="container">
+        <div class="header-content">
+            <div class="logo">
+                <a href="/">
+                    <div class="logo-text">
+                        <img class="logo-img" src="/images/logo.jpg" alt="One Thousand Hills Voyages Ltd" />
+                    </div>
+                </a>
+            </div>
+            
+            <nav class="main-nav">
+                <ul>
+                    {% for item in site.navigation %}
+                    <li><a href="{{ item.url }}">{{ item.text }}</a></li>
+                    {% endfor %}
+                </ul>
+            </nav>
+            
+            <div class="header-cta">
+                <a href="https://wa.me/250788839652" class="btn-contact">
+                    📞 {{ site.contact.primary }}
+                </a>
+            </div>
+            
+            <div class="mobile-menu-toggle" id="mobileMenuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+        <div class="mobile-menu-header">
+            <div class="logo-text">
+                <span class="logo-main">One Thousand Hills</span>
+                <span class="logo-sub">Voyages Ltd</span>
+            </div>
+            <button class="mobile-menu-close" id="mobileMenuClose">&times;</button>
+        </div>
+        <nav class="mobile-nav">
+            <ul>
+                {% for item in site.navigation %}
+                <li><a href="{{ item.url }}">{{ item.text }}</a></li>
+                {% endfor %}
+            </ul>
+        </nav>
+        <div class="mobile-menu-cta">
+            <a href="tel:{{ site.contact.primary }}" class="btn-primary">
+                📞 Call Now
+            </a>
+        </div>
+    </div>
+</header>

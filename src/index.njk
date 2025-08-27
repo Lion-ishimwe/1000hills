@@ -1,0 +1,220 @@
+---
+layout: base.njk
+title: Home
+description: Professional travel services in Rwanda
+---
+
+<!-- Hero Section with Video Background -->
+<section class="hero">
+    <video class="hero-video" src="/images/Visit%20Rwanda.mp4" autoplay loop muted playsinline></video>
+    <div class="container hero-overlay">
+        <div class="hero-content">
+            <h1>Professional Travel Services in Rwanda</h1>
+            <p class="hero-subtitle">{{ site.tagline }}</p>
+            <div class="cta-group">
+                <a href="#contact" class="btn-primary">
+                    📞 Book Now
+                </a>
+                <a href="/services" class="btn-secondary">
+                    📋 Our Services
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--<div class="park-section">
+<div class="slide">
+<div class="item" style="Background-image: url(./images/akagera.jpeg);">
+<div class="content">
+<div class="name">Akagera National Park</div>
+<div class="desc">lorem ipsum,</div>
+
+</div>
+
+</div>
+
+<div class="item" style="Background-image: url(./images/nyungwe.jpg);">
+<div class="content">
+<div class="name">Nyungwe Forest National Park</div>
+<div class="desc">lorem ipsum,</div>
+
+</div>
+
+</div>
+
+<div class="item" style="Background-image: url(./images/volcanoes.jpg);">
+<div class="content">
+<div class="name">volcanoes National Park</div>
+<div class="desc">lorem ipsum,</div>
+
+</div>
+
+</div>
+
+<div class="item" style="Background-image: url(./images/gishwati.jpg);">
+<div class="content">
+<div class="name">Gishwati-Mukura National Park</div>
+<div class="desc">lorem ipsum,</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>-->
+
+
+<!-- Services Section -->
+<section id="services" class="services">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section-title">Our Professional Services</h2>
+            <p class="section-subtitle">Comprehensive travel solutions designed to meet all your transportation and touring needs in East Africa</p>
+        </div>
+
+        <div class="services-showcase">
+            <div class="services-carousel">
+                <div class="service-panel">
+                    <div class="service-image">
+                        <img src="/images/gorilla.jpg" alt="Gorilla Trekking Experience in Rwanda" />
+                    </div>
+                    <div class="service-content">
+                        <h3>Gorilla Trekking Adventures</h3>
+                        <p>Experience the magic of encountering mountain gorillas in their natural habitat. Our expert guides will lead you through the lush forests of Volcanoes National Park, where you'll have the rare opportunity to observe these magnificent creatures up close.</p>
+                        <ul class="service-highlights">
+                            <li>Expert local guides with deep wildlife knowledge</li>
+                            <li>Small group sizes for intimate experiences</li>
+                            <li>All permits and logistics handled professionally</li>
+                            <li>Conservation-focused sustainable tourism</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="service-panel">
+                    <div class="service-image">
+                        <img src="/images/lion.jpg" alt="Professional Transportation in Rwanda" />
+                    </div>
+                    <div class="service-content">
+                        <h3>Professional Transportation Services</h3>
+                        <p>From airport transfers to cross-country journeys, we provide reliable, comfortable, and safe transportation throughout Rwanda. Our modern fleet and experienced drivers ensure your travels are smooth and enjoyable.</p>
+                        <ul class="service-highlights">
+                            <li>Modern, well-maintained vehicle fleet</li>
+                            <li>Professional drivers with local expertise</li>
+                            <li>24/7 availability and support</li>
+                            <li>Comprehensive insurance coverage</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="service-panel">
+                    <div class="service-image">
+                        <img src="/images/elephant.jpeg" alt="Cultural Heritage Tours in Rwanda" />
+                    </div>
+                    <div class="service-content">
+                        <h3>Cultural Heritage Tours</h3>
+                        <p>Immerse yourself in Rwanda's rich cultural tapestry through our carefully curated heritage tours. Visit historical sites, meet local artisans, and experience traditional ceremonies that showcase the country's vibrant traditions.</p>
+                        <ul class="service-highlights">
+                            <li>Authentic cultural experiences</li>
+                            <li>Local community engagement</li>
+                            <li>Historical site visits</li>
+                            <li>Traditional craft demonstrations</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Carousel Navigation -->
+            <button class="carousel-nav carousel-prev" id="prevBtn" aria-label="Previous slide" tabindex="0">‹</button>
+            <button class="carousel-nav carousel-next" id="nextBtn" aria-label="Next slide" tabindex="0">›</button>
+            
+            <!-- Carousel Indicators -->
+            <div class="carousel-indicators">
+                <span class="indicator active" data-slide="0"></span>
+                <span class="indicator" data-slide="1"></span>
+                <span class="indicator" data-slide="2"></span>
+            </div>
+            
+            
+        </div>
+    </div>
+</section>
+
+<!-- Why Choose Us Section -->
+<!--<section id="why-choose" class="why-choose">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section-title">Why Choose {{ site.title }}</h2>
+            <p class="section-subtitle">We combine local expertise with international service standards to deliver exceptional travel experiences</p>
+        </div>
+
+        <div class="features-grid">
+            {% for feature in site.features %}
+            <div class="feature-card">
+                <div class="feature-icon">{{ feature.icon }}</div>
+                <h4>{{ feature.title }}</h4>
+                <p>{{ feature.description }}</p>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>-->
+
+<!-- Contact Section -->
+<section id="contact" class="contact">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="section-subtitle">Ready to explore Rwanda? Contact us to start planning your perfect journey</p>
+        </div>
+
+        <!--<div class="contact-grid">
+            <div class="contact-info">
+                <h3>Contact Information</h3>
+                
+                <div class="contact-methods">
+                    <div class="contact-method" onclick="window.location.href='tel:{{ site.contact.primary }}'">
+                        <div class="contact-method-icon">📱</div>
+                        <div class="contact-method-info">
+                            <h4>Primary Contact</h4>
+                            <p class="phone-number">{{ site.contact.primary }}</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-method" onclick="window.location.href='tel:{{ site.contact.secondary }}'">
+                        <div class="contact-method-icon">📞</div>
+                        <div class="contact-method-info">
+                            <h4>Alternative Contact</h4>
+                            <p class="phone-number">{{ site.contact.secondary }}</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-method">
+                        <div class="contact-method-icon">📍</div>
+                        <div class="contact-method-info">
+                            <h4>Location</h4>
+                            <p>{{ site.contact.location }}</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-method">
+                        <div class="contact-method-icon">🕒</div>
+                        <div class="contact-method-info">
+                            <h4>Availability</h4>
+                            <p>{{ site.contact.availability }}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>-->
+
+            <div class="cta-box">
+                <h3>Ready to Start Your Adventure?</h3>
+                <p>Contact us today to discuss your travel plans, get a personalized quote, or book your Rwanda experience.</p>
+                <a href="https://wa.me/250788839652" class="btn-primary">
+                    📞 Call Now
+                </a>
+            </div>
+        </div>
+    </div>
+</section> 
