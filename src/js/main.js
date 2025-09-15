@@ -259,4 +259,17 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         });
     }
+
+    // Hero Slideshow Functionality
+    const heroSlides = document.querySelectorAll('.slide');
+    if (heroSlides.length > 0) {
+        let currentSlideIndex = 0;
+        function showNextSlide() {
+            heroSlides[currentSlideIndex].classList.remove('active');
+            currentSlideIndex = (currentSlideIndex + 1) % heroSlides.length;
+            heroSlides[currentSlideIndex].classList.add('active');
+        }
+        // Start cycling every 2 seconds
+        setInterval(showNextSlide, 2000);
+    }
 });

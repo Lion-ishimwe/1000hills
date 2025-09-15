@@ -320,14 +320,28 @@ main { padding-top: 80px; }
     color: #555;
 }
 
-.hero-video {
+.hero-slideshow {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.slide {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
     object-fit: cover;
-    z-index: 1;
+    opacity: 0;
+    transition: opacity 1s ease;
+}
+
+.slide.active {
+    opacity: 1;
 }
 
 .hero-overlay {
@@ -340,6 +354,7 @@ main { padding-top: 80px; }
 .hero-content h1 {
     font-size: 3.5rem;
     font-weight: 700;
+    margin-top: 15vh;
     margin-bottom: 1rem;
     text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
 }
@@ -498,7 +513,7 @@ section {
 .services-showcase {
     position: relative;
     overflow: hidden;
-    height: 600px;
+    height: auto;
 }
 
 .services-carousel {
@@ -529,7 +544,7 @@ section {
     overflow: hidden;
     border-radius: 12px;
     box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
-    height: 400px;
+    height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -846,10 +861,9 @@ section {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 30%;
-    margin-left:35% ;
-    margin-top:5% ;
-    margin-bottom:5% ;
+    width: 100%;
+    max-width: 720px;
+    margin: 3rem auto;
 }
 
 .cta-box h3 {
@@ -933,10 +947,8 @@ section {
         font-size: 1.2rem;
     }
     
-    .cta-group {
-        flex-direction: column;
-        align-items: center;
-    }
+    .cta-group { flex-direction: column; align-items: center; }
+    .cta-box { width: 92%; margin: 2rem auto; padding: 1.5rem; }
 
     
     .stats-grid {
@@ -947,6 +959,10 @@ section {
     .hero-content h1 {
         font-size: 2rem;
     }
+
+    /* Stack image above text in service panels on mobile */
+    .service-panel { grid-template-columns: 1fr; padding: 1.5rem; gap: 1.5rem; }
+    .service-image { height: 260px; }
 }
 
 .park-section{
